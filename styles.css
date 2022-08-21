@@ -8,11 +8,68 @@ body{
 }
 
 .contenedor{
+    overflow: auto;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
-    height: 540px;
-    width: 900px;
+    margin-top: 100px;
+    height: 640px;
+    width: 700px;
     background-color: white;
+    border-radius: 10px;
+}
+
+.textos{
+    padding: 20px;
+}
+
+.title-1{
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: hsl(228, 12%, 48%);
+}
+
+.title-2{
+    font-family:'Fraunces', sans-serif ;
+}
+
+.parrafo{
+    line-height: 25px;
+    font-family: 'Monstserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+.precio{
+    display: flex;
+    align-items: center;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+}
+
+.precio-anterior{
+    margin: 15px;
+    font-family: 'Monstserrat', sans-serif;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+}
+
+.comprar{
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+    display: flex;
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:RGB(61,129,104);
+}
+
+.text-buy{
+    font-family: 'Monstserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-left: 10px;
 }
